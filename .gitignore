@@ -1,0 +1,40 @@
+# Ignorar archivos y carpetas sensibles y generados automáticamente
+# Archivos de configuración y entorno
+.env
+*.env
+
+# Archivos de sistema y temporales
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Carpeta de dependencias y compilados
+/node_modules/
+/vendor/
+
+# Archivos de bases de datos y backups
+*.sqlite
+*.db
+*.sql
+/data/
+
+# Carpeta de imágenes y archivos generados
+/public/img/
+/public/js/
+/public/styles/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Otros archivos y carpetas que no deben subirse
+*.swp
+*.swo
+
+# Ignorar XAMPP y configuraciones locales
+xampp/
+
+# Ignorar archivos de sistema de Windows
+*.lnk

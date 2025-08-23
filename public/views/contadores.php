@@ -63,7 +63,10 @@
                             </tr>
                         </thead>
                         <tbody>
-
+                        <!-- Contenido -->
+                        <?php
+                        // Aquí puedes agregar el código PHP para mostrar los datos de los contadores
+                        ?>
                         </tbody>
                     </table>
                 </div>

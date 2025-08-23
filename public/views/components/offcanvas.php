@@ -1,4 +1,3 @@
-
 <nav class="navbar bg-primary-subtle border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
         <a class="navbar-brand mt-1 fw-semibold" href="#">
@@ -37,7 +36,16 @@
             <li class="nav-item">
                 <a class="nav-link text-white" href="#"><i class="fa-solid fa-cog me-2"></i>Configuración</a>
             </li>
+            <li class="nav-item">
+                <?php
+                function route($path) {
+                    return "/report/public/views/" . ltrim($path, "/");
+                }
+                ?>
+                <a class="nav-link text-white" href="<?php echo route('login.php'); ?>"><i class="fa-solid fa-right-from-bracket me-2"></i>Cerrar Sesión</a>
+            </li>
         </ul>
     </div>
 </div>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> -->
+
